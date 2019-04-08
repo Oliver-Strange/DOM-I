@@ -48,3 +48,12 @@ aNav[2].textContent = 'Vision'
 aNav[3].textContent = 'Features'
 aNav[4].textContent = 'About'
 aNav[5].textContent = 'Contact'
+
+let ctaText = document.querySelector('h1');
+ctaText.textContent = 'DOM Is Awesome'
+
+let ctaBtn = document.querySelector('button');
+ctaBtn.textContent = 'Get Started'
+
+let ctaImg = document.getElementById("cta-img");
+ctaImg.src = "img/header-img.png"
