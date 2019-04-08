@@ -49,7 +49,14 @@ aNav[3].textContent = 'Features'
 aNav[4].textContent = 'About'
 aNav[5].textContent = 'Contact'
 
-aNav[6].prepend()
+let nav = document.querySelector('nav');
+let blog = document.createElement('a');
+blog.textContent = 'Blog';
+nav.appendChild(blog);
+
+let news = document.createElement('a');
+news.textContent = 'News';
+nav.prepend(news);
 
 aNav.forEach(function(currentValue){
   currentValue.style.color = 'green';
@@ -61,8 +68,6 @@ ctaText.textContent = 'DOM Is Awesome'
 
 let ctaBtn = document.querySelector('button');
 ctaBtn.textContent = 'Get Started'
-
-
 
 let ctaImg = document.getElementById("cta-img");
 ctaImg.src = "img/header-img.png"
