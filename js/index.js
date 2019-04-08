@@ -41,18 +41,15 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-// let aNav = document.querySelectorAll("nav a");
-// aNav[0].textContent = 'Services'
-// aNav[1].textContent = 'Product'
-// aNav[2].textContent = 'Vision'
-// aNav[3].textContent = 'Features'
-// aNav[4].textContent = 'About'
-// aNav[5].textContent = 'Contact'
+let aNav = document.querySelectorAll("nav a");
+aNav[0].textContent = 'Services'
+aNav[1].textContent = 'Product'
+aNav[2].textContent = 'Vision'
+aNav[3].textContent = 'Features'
+aNav[4].textContent = 'About'
+aNav[5].textContent = 'Contact'
 
-// let blog = document.createElement('a');
-// blog.textContent = 'Blog'
-// aNav.append(blog)
-// aNav.prepend()
+aNav[6].prepend()
 
 aNav.forEach(function(currentValue){
   currentValue.style.color = 'green';
@@ -70,24 +67,24 @@ ctaBtn.textContent = 'Get Started'
 let ctaImg = document.getElementById("cta-img");
 ctaImg.src = "img/header-img.png"
 
-// let h4 = document.querySelectorAll('h4');
-// h4[0].textContent = 'Features'
-// h4[1].textContent = 'About'
-// h4[2].textContent = 'Services'
-// h4[3].textContent = 'Product'
-// h4[4].textContent = 'Vision'
-// h4[5].textContent = 'Contact'
+let h4 = document.querySelectorAll('h4');
+h4[0].textContent = 'Features'
+h4[1].textContent = 'About'
+h4[2].textContent = 'Services'
+h4[3].textContent = 'Product'
+h4[4].textContent = 'Vision'
+h4[5].textContent = 'Contact'
 
-// let pText = document.querySelectorAll('p');
-// pText[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-// pText[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-// pText[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-// pText[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-// pText[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
-// pText[5].textContent = '123 Way 456 Street Somewhere, USA'
-// pText[6].textContent = '1 (888) 888-8888'
-// pText[7].textContent = 'sales@greatidea.io'
-// pText[8].textContent = 'Copyright Great Idea! 2018'
+let pText = document.querySelectorAll('p');
+pText[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'
+pText[5].textContent = '123 Way 456 Street Somewhere, USA'
+pText[6].textContent = '1 (888) 888-8888'
+pText[7].textContent = 'sales@greatidea.io'
+pText[8].textContent = 'Copyright Great Idea! 2018'
 
 let midImg = document.getElementById('middle-img');
 midImg.setAttribute('src', siteContent['main-content']['middle-img-src'])
